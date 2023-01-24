@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var gepszam = Math.ceil( Math.random() * 10)
+        var tipp = 0
+        while(gepszam != tipp) {
+            tipp = prompt()
+            if(gepszam > tipp){
+                alert("nagyobb")
+            }
+            else if(gepszam < tipp){
+                alert("kisebb")
+            }
+            else{
+                alert("Talált")
+            }
+        }
+
+    </script>
+</body>
+</html>
